@@ -1,0 +1,37 @@
+:root{
+    --azul:#2c436b;
+    --amarillo:#ffd700;
+    --oro:#daa520;
+    --blanco:#ffffff;
+    --negro:#000000;
+    --gris: #D8E3E7;
+    --azul2: #023864;
+    --grisclaro: #b0c4de	;
+    --naranja: #ffa500	;
+    --fuentePrincipal:'Montserrat', sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+ }
+ /** Globales **/
+body{
+    background-color: var(--grisclaro);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    }
+    p{
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--blanco);
+    }
+    a{
+        text-decoration: none;
+    
+    }
+    
